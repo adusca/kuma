@@ -17,7 +17,7 @@ from nose.tools import assert_false, eq_, ok_
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.core.files.base import ContentFile
-from django.template.defaultfilters import slugify
+from django.utils.text import slugify
 from django.test import TestCase
 
 import constance.config

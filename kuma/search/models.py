@@ -9,7 +9,7 @@ from django.db.models.signals import post_delete
 from django.utils.html import strip_tags
 from django.utils import timezone
 from django.utils.functional import cached_property
-from django.template.defaultfilters import slugify
+from django.utils.text import slugify
 
 from elasticutils.contrib.django import MappingType, Indexable
 from elasticutils.contrib.django.tasks import index_objects
